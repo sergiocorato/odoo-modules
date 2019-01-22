@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record id="view_partner_draft_vat_form" model="ir.ui.view">
+        <field name="name">res.partner.draftvat.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base_vat.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="property_account_position_id" position="after">
+                <field name="draft_vat" placeholder="e.g. XX-421-55-125"/>
+            </field>
+        </field>
+    </record>
+    <record id="view_partner_draft_vat_tree" model="ir.ui.view">
+        <field name="name">res.partner.draftvat.tree</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <field name="email" position="after">
+                <field name="draft_vat"/>
+            </field>
+        </field>
+    </record>
+</odoo>
