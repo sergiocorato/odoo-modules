@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="payment_term_cad" model="account.payment.term">
+            <field name="name">C.A.D. - At Sight</field>
+            <field name="note">C.A.D. - At Sight</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_advance" model="account.payment.term">
+            <field name="name">Prepayment</field>
+            <field name="note">Prepayment</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_delivery" model="account.payment.term">
+            <field name="name">Cash - On Delivery</field>
+            <field name="note">Cash - On Delivery</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_direct" model="account.payment.term">
+            <field name="name">Direct Payment - At Sight</field>
+            <field name="note">Direct Payment - At Sight</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_direct_30" model="account.payment.term">
+            <field name="name">Direct Payment 30 Days - From Invoice Date</field>
+            <field name="note">Direct Payment 30 Days - From Invoice Date</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 30, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_direct_30_eom" model="account.payment.term">
+            <field name="name">Direct Payment 30 Days - End of Month</field>
+            <field name="note">Direct Payment 30 Days - End of Month</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 1, 'option': 'fix_day_following_month'})]"/>
+        </record>
+        <record id="payment_term_direct_60_eom" model="account.payment.term">
+            <field name="name">Direct Payment 60 Days - End of Month</field>
+            <field name="note">Direct Payment 60 Days - End of Month</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 2, 'option': 'fix_day_following_month'})]"/>
+        </record>
+        <record id="payment_term_bt" model="account.payment.term">
+            <field name="name">B.T. - At Sight</field>
+            <field name="note">B.T. - At Sight</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_bt_15" model="account.payment.term">
+            <field name="name">B.T. 15 Days - From Invoice Date</field>
+            <field name="note">B.T. 15 Days - From Invoice Date</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 15, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_bt_30" model="account.payment.term">
+            <field name="name">B.T. 30 Days - From Invoice Date</field>
+            <field name="note">B.T. 30 Days - From Invoice Date</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 30, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_bt_60" model="account.payment.term">
+            <field name="name">B.T. 60 Days - From Invoice Date</field>
+            <field name="note">B.T. 60 Days - From Invoice Date</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 60, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+        <record id="payment_term_bt_30_eom" model="account.payment.term">
+            <field name="name">B.T. 30 Days - End of Month</field>
+            <field name="note">B.T. 30 Days - End of Month</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 1, 'option': 'fix_day_following_month'})]"/>
+        </record>
+        <record id="payment_term_bt_60_eom" model="account.payment.term">
+            <field name="name">B.T. 60 Days - End of Month</field>
+            <field name="note">B.T. 60 Days - End of Month</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 2, 'option': 'fix_day_following_month'})]"/>
+        </record>
+        <record id="payment_term_bt_30_del" model="account.payment.term">
+            <field name="name">B.T. 30 Days - After Delivery</field>
+            <field name="note">B.T. 30 Days - After Delivery</field>
+            <field name="line_ids" eval="[(0, 0, {
+            'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 30, 'option': 'day_after_invoice_date'})]"/>
+        </record>
+    </data>
+</odoo>
