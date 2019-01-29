@@ -5,21 +5,21 @@
             <field name="name">Ri.Ba. 30 Days - End of Month</field>
             <field name="note">Ri.Ba. 30 Days - End of Month</field>
             <field name="riba">True</field>
-            <field name="line_ids" eval="[(0, 0, {
+            <field name="line_ids" eval="[(5, 0), (0, 0, {
             'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 1, 'option': 'fix_day_following_month'})]"/>
         </record>
         <record id="payment_term_riba_60_eom" model="account.payment.term">
             <field name="name">Ri.Ba. 60 Days - End of Month</field>
             <field name="note">Ri.Ba. 60 Days - End of Month</field>
             <field name="riba">True</field>
-            <field name="line_ids" eval="[(0, 0, {
+            <field name="line_ids" eval="[(5, 0), (0, 0, {
             'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 2, 'option': 'fix_day_following_month'})]"/>
         </record>
         <record id="payment_term_riba_90_eom" model="account.payment.term">
             <field name="name">Ri.Ba. 90 Days - End of Month</field>
             <field name="note">Ri.Ba. 90 Days - End of Month</field>
             <field name="riba">True</field>
-            <field name="line_ids" eval="[(0, 0, {
+            <field name="line_ids" eval="[(5, 0), (0, 0, {
             'value': 'balance', 'value_amount': 0.0, 'sequence': 1, 'days': 0, 'months': 3, 'option': 'fix_day_following_month'})]"/>
         </record>
     </data>

@@ -5,9 +5,8 @@
     'name': 'Draft VAT',
     'version': '10.0.1.0.0',
     'category': 'Localization/Italy',
-    'author': "LP",
+    'author': 'LP',
     'license': 'AGPL-3',
-    'depends': ['base'],
     'depends': [
         'base_vat'
     ],
