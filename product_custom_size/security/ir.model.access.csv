@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_size_product_manager,product.size,model_product_size,stock.group_stock_manager,1,1,1,1
+access_product_size_public,product.size.public,model_product_size,base.group_user,1,0,0,0
+,,,,,,,

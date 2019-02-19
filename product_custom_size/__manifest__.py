@@ -4,7 +4,7 @@
 
 {
     'name': 'Product Size Manager',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'category': 'Product',
     'summary': "Product Size Manager",
     'author': 'LP',
@@ -13,7 +13,8 @@
         'sale',
         ],
     'data': [
-        'views/product_size_view.xml'
+        'views/product_size_view.xml',
+        'security/ir.model.access.csv'
     ],
     'installable': True,
     'auto_install': False

@@ -4,7 +4,7 @@
 
 {
     'name': 'Product Color Manager',
-    'version': '10.0.1.0.0',
+    'version': '10.0.1.0.1',
     'category': 'Product',
     'summary': "Product Color Manager",
     'author': 'LP',
@@ -13,7 +13,8 @@
         'sale',
         ],
     'data': [
-        'views/product_color_view.xml'
+        'views/product_color_view.xml',
+        'security/ir.model.access.csv'
     ],
     'installable': True,
     'auto_install': False
