@@ -1,0 +1,28 @@
+.ddt_cell {
+    border-color: grey;
+    border: 1px solid #b2b2b2;
+    font-family: 'Gotham';
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #eeeeee;
+    text-align: left;
+}
+.ddt_auto {font-size: smaller; position: relative;}
+.ddt_footer {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.85;
+  height: 400px;
+  bottom: -200px;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  pointer-events: none;
+}
