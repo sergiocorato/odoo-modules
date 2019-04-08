@@ -9,7 +9,7 @@
     'license': 'LGPL-3',
     'application': False,
     'installable': True,
-    'auto_install': True,
+    'auto_install': False,
     'depends': [
         'l10n_it_fatturapa_out',
     ],
