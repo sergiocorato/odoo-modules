@@ -13,5 +13,5 @@
     'data': [
         'views/hr_timesheet_activities_customized_view.xml',
     ],
-    'installable': True,
+    'installable': False,
 }
