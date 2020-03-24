@@ -7,8 +7,7 @@
     'category': 'Localization/Italy',
     'author': 'SC & LP',
     'license': 'LGPL-3',
-    'application': False,
-    'installable': False,
+    'installable': True,
     'depends': [
         'l10n_it_fatturapa_out',
     ],
