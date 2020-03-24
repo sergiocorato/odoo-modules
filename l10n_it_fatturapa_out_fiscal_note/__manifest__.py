@@ -3,7 +3,7 @@
 {
     'name': 'Italian Localization - Aggiunta note fiscali su FE',
     'summary': 'Aggiunge note fiscali su fattura XML',
-    'version': '10.0.0.0.3',
+    'version': '12.0.1.0.0',
     'category': 'Localization/Italy',
     'author': 'SC & LP',
     'license': 'LGPL-3',
