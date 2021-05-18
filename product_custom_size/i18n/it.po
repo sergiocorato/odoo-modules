@@ -1,0 +1,128 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* product_custom_size
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-18 10:50+0000\n"
+"PO-Revision-Date: 2021-05-18 10:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__create_date
+msgid "Created on"
+msgstr "Creato il"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__description
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_form
+msgid "Description"
+msgstr "Descrizione"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__display_name
+msgid "Display Name"
+msgstr "Nome da visualizzare"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__graphic
+msgid "Graphic File"
+msgstr "File Grafico"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__id
+msgid "ID"
+msgstr ""
+
+#. module: product_custom_size
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_kanban
+msgid "Image"
+msgstr "Immagine"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size____last_update
+msgid "Last Modified on"
+msgstr "Data di ultima modifica"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__write_uid
+msgid "Last Updated by"
+msgstr "Ultima modifica di"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__write_date
+msgid "Last Updated on"
+msgstr "Ultima modifica il"
+
+#. module: product_custom_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__products_count
+msgid "Number of products"
+msgstr "Numero di prodotti"
+
+#. module: product_custom_size
+#: model:ir.actions.act_window,name:product_custom_size.action_open_single_product_size
+#: model_terms:ir.ui.view,arch_db:product_custom_size.product_size_search_form_view
+msgid "Product Size"
+msgstr "Taglia Prodotto"
+
+#. module: product_custom_size
+#: model:ir.ui.menu,name:product_custom_size.menu_product_size
+msgid "Product Sizes"
+msgstr "Taglie Prodotto"
+
+#. module: product_custom_size
+#: model:ir.model,name:product_custom_size.model_product_template
+msgid "Product Template"
+msgstr "Modello prodotto"
+
+#. module: product_custom_size
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_form
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_kanban
+msgid "Products"
+msgstr "Prodotti"
+
+#. module: product_custom_size
+#: model:ir.model.fields,help:product_custom_size.field_product_product__product_size_id
+#: model:ir.model.fields,help:product_custom_size.field_product_template__product_size_id
+msgid "Select a size for this product"
+msgstr "Seleziona una taglia per questo prodotto"
+
+#. module: product_custom_size
+#: model:ir.actions.act_window,name:product_custom_size.action_product_size
+#: model:ir.model.fields,field_description:product_custom_size.field_product_product__product_size_id
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__name
+#: model:ir.model.fields,field_description:product_custom_size.field_product_template__product_size_id
+#: model_terms:ir.ui.view,arch_db:product_custom_size.product_template_form_size_add
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_template_search_size
+msgid "Size"
+msgstr "Taglia"
+
+#. module: product_custom_size
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_form
+msgid "Size Name"
+msgstr "Nome Taglia"
+
+#. module: product_custom_size
+#: model:ir.actions.act_window,name:product_custom_size.action_open_size_products
+#: model:ir.model.fields,field_description:product_custom_size.field_product_size__product_ids
+msgid "Size Products"
+msgstr "Prodotti di questa taglia"
+
+#. module: product_custom_size
+#: model:ir.model,name:product_custom_size.model_product_size
+#: model_terms:ir.ui.view,arch_db:product_custom_size.view_product_size_tree
+msgid "product.size"
+msgstr ""
+
