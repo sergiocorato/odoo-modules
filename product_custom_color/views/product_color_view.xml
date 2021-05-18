@@ -70,12 +70,13 @@
         <field name="model">product.color</field>
         <field name="arch" type="xml">
             <kanban>
+                <field name="id"/>
                 <field name="graphic"/>
                 <field name="products_count"/>
                 <field name="description"/>
                 <templates>
                     <t t-name="kanban-box">
-                        <div class="oe_kanban_global_click oe_kanban_vignette oe_semantic_html_override">
+                        <div class="oe_kanban_vignette oe_semantic_html_override">
                             <div class="oe_kanban_image">
                                 <img t-att-src="kanban_image('product.product', 'graphic', record.id.raw_value)" alt="Color"/>
                             </div>
